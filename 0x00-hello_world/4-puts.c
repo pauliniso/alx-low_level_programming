@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * a C program that prints exactly
+ * main: a C program that prints with puts function
  *
- * Programming is like building a multilingual puzzle using putfunction
- * @return 0: end with the value 0.
+ * return: ending with the value 0.
+ * Programming is like building a multilingual puzzle
  */
 int main(void)
 {
