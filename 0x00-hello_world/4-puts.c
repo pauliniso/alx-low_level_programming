@@ -1,8 +1,9 @@
 #include <stdio.h>
-/*
+/**
  * a C program that prints exactly
+ *
  * Programming is like building a multilingual puzzle using putfunction
- * return 0;
+ * @return 0: end with the value 0.
  */
 int main(void)
 {
