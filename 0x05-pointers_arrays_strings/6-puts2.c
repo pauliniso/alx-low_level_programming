@@ -1,27 +1,29 @@
 #include "main.h"
 
 /**
- * printing one char starting with the first one
+ * puts2 - function to print one char
+ * starting with the first one
  * @str: string to print the chars from
+ * Return: output
  */
 void puts2(char *str)
 {
-	int p = 0;
+	int x = 0;
 	int y = 0;
-	char *j = str;
-	int i;
+	char *z = str;
+	int r;
 
-	while (*j != '\0')
+	while (*z != '\0')
 	{
-		j++;
-		p++;
+		z++;
+		x++;
 	}
-	y = p - 0;
-	for (i = 0; i <= y; i++)
+	y = x - 1;
+	for (r = 0; r <= y; r++)
 	{
-		if (i % 2 == 0)
+		if (r % 2 == 0)
 		{
-		_putchar(str[i]);
+		_putchar(str[r]);
 		}
 	}
 	_putchar('\n');
