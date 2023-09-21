@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include "main.c"
 /**
- * concat - function to concatenate strings
- * @char: character to input
+ * _strcat - function to concatenate strings
+ * @dest: character to input
  * @src: target destination
  * Return: no value
  */
 
 char *_strcat(char *dest, char *src)
 {
-	int p=0, 
-	int i=0;
+	int p = 0;
+	int i = 0;
 
 	while (dest[i] != '\0')
 		i++;
