@@ -1,9 +1,10 @@
-#include <stdio.h>
 #include "main.c"
+
 /**
  * _strcat - function to concatenate strings
  * @dest: character to input
  * @src: target destination
+ *
  * Return: no value
  */
 
