@@ -3,21 +3,19 @@
 /**
  * print_number - function that prints an integer
  * @n: number of integer to be printed
+ *
+ * Return: no value
  */
+
 void print_number(int n)
 {
-	unsigned int p;
-
-	p = n;
-
 	if (n < 0)
 	{
-		_putchar('-');
-		p = -n;
+		putchar('-');
+		n = -n;
 	}
-	if (p / 10 != 0)
-	{
-		print_number(p / 10);
-	}
-	_putchar((p % 10) + '0');
+	if (n / 10)
+		print(n / 10);
+
+	putchar(n % 10 + '0');
 }
